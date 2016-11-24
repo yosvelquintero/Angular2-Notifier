@@ -1,8 +1,8 @@
 /* tslint:disable:no-unused-variable */
-/*
 
 import { TestBed, async } from '@angular/core/testing';
 import { NotifierComponent } from './notifier.component';
+import { NotifierService } from './notifier.service';
 
 describe('NotifierComponent', () => {
   beforeEach(() => {
@@ -13,22 +13,9 @@ describe('NotifierComponent', () => {
     });
   });
 
-  it('should create the app', async(() => {
+  it('should create the notifier', async(() => {
     let fixture = TestBed.createComponent(NotifierComponent);
-    let app = fixture.debugElement.componentInstance;
-    expect(app).toBeTruthy();
+    let notifier = fixture.debugElement.componentInstance;
+    expect(notifier).toBeTruthy();
   }));
-
-  it(`should have as title 'app works!'`, async(() => {
-    let fixture = TestBed.createComponent(NotifierComponent);
-    let app = fixture.debugElement.componentInstance;
-    expect(app.title).toEqual('app works!');
-  }));
-
-  it('should render title in a h1 tag', async(() => {
-    let fixture = TestBed.createComponent(NotifierComponent);
-    fixture.detectChanges();
-    let compiled = fixture.debugElement.nativeElement;
-    expect(compiled.querySelector('h1').textContent).toContain('app works!');
-  }));
-});*/
+});
