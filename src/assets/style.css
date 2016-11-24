@@ -1,0 +1,15 @@
+body {
+	padding: 50px 0;
+}
+
+a {
+	cursor: pointer;
+}
+
+form {
+	margin-bottom: 40px;
+}
+
+footer {
+	margin-top: 60px;
+}

@@ -1,0 +1,7 @@
+<div class="notifier">
+	<div class="alert alert-dismissible alert-{{ n.type }}"	*ngFor="let n of notes">
+    <button (click)="hide(n)" type="button" class="close" data-dismiss="alert">&times;</button>
+    <h4>{{ n.type }}!</h4>
+		{{ n.message }}
+	</div>
+</div>
