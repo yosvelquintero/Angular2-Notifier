@@ -13,7 +13,7 @@ export class NotifierComponent {
   private notes: Notification[] = [];
 
   constructor(private notifications: NotifierService) {
-    this.notes = new Array < Notification > ();
+    this.notes = new Array<Notification>();
 
     notifications.noteAdded.subscribe(note => {
       // Should display max 5

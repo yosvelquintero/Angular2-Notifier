@@ -1,14 +1,29 @@
 /* tslint:disable:no-unused-variable */
 
-import { TestBed, async } from '@angular/core/testing';
+/*import { TestBed, async } from '@angular/core/testing';
+
 import { AppComponent } from './app.component';
+import { UserProfileComponent } from './user/user-profile.component';
+import { UserFormComponent } from './user/user-form.component';
+import { NotifierComponent } from './notifier/notifier.component';
+
+import { NotifierService } from './notifier/notifier.service';
 
 describe('AppComponent', () => {
+  // Application wide providers
+  const APP_PROVIDERS = [
+    NotifierService
+  ];
+
   beforeEach(() => {
     TestBed.configureTestingModule({
       declarations: [
-        AppComponent
+        AppComponent,
+        UserProfileComponent,
+        UserProfileComponent,
+        NotifierComponent
       ],
+      providers: [APP_PROVIDERS]
     });
   });
 
@@ -30,4 +45,4 @@ describe('AppComponent', () => {
     let compiled = fixture.debugElement.nativeElement;
     expect(compiled.querySelector('a.navbar-brand').textContent).toContain('Angular2 Notifier');
   }));
-});
+});*/
