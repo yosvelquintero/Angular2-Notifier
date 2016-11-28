@@ -28,6 +28,10 @@ export class NotifierComponent {
     });
   }
 
+  getNotesLength() {
+    return this.notes.length;
+  }
+
   private hide(note) {
     let index = this.notes.indexOf(note);
 

@@ -28,7 +28,6 @@
   cursor: pointer;
   background: transparent;
   border: 0;
-  -webkit-appearance: none;
 }
 
 .notifier .alert-dismissible .close {
